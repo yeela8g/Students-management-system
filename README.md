@@ -6,22 +6,22 @@ This C++ project implements a Student Management System, allowing users to manag
 
 ## Files
 
-1. **main.cpp**: Main program file initializing the student manager and calling the menu function.
-2. **Student_info.txt**: Text file containing initial student information (IDs and names).
-3. **Course_info.txt**: Text file containing initial course information (student IDs, course numbers, and grades).
-4. **students_dec.h**: Header file with declarations of structs, constants, and function prototypes.
-5. **students_imp.cpp**: Implementation file with code for functions declared in students_dec.h.
-6. **students_mng.cpp**: Implementation file containing the menu function and supporting functions.
+  1. **main.cpp**: Main program file initializing the student manager and calling the menu function.
+  2. **Student_info.txt**: Text file containing initial student information (IDs and names).
+  3. **Course_info.txt**: Text file containing initial course information (student IDs, course numbers, and grades).
+  4. **students_dec.h**: Header file with declarations of structs, constants, and function prototypes.
+  5. **students_imp.cpp**: Implementation file with code for functions declared in students_dec.h.
+  6. **students_mng.cpp**: Implementation file containing the menu function and supporting functions.
 
 ## Code Writing Principles
 
-1. **Modularity**: Code is organized into modular functions handling specific tasks.
-2. **Dynamic Memory Allocation**: Utilizes dynamic memory for managing arrays of students and their courses.
-3. **Binary Search**: Includes a binary search function for efficient student lookup based on ID.
-4. **Input Validation**: Ensures user input in the menu is within valid range.
-5. **File Handling**: Reads initial student and course data from text files with error handling.
-6. **Structured Data**: Uses structs (`student` and `course`) to organize data.
-7. **Pointer Arithmetic**: Employed for managing dynamic memory efficiently.
+- **Modularity**: Code is organized into modular functions handling specific tasks.
+- **Dynamic Memory Allocation**: Utilizes dynamic memory for managing arrays of students and their courses.
+- **Binary Search**: Includes a binary search function for efficient student lookup based on ID.
+- **Input Validation**: Ensures user input in the menu is within valid range.
+- **File Handling**: Reads initial student and course data from text files with error handling.
+- **Structured Data**: Uses structs (`student` and `course`) to organize data.
+- **Pointer Arithmetic**: Employed for managing dynamic memory efficiently.
 
 ## System illustration
 

@@ -4,6 +4,11 @@
 
 This C++ project implements a Student Management System, allowing users to manage student details, courses, and perform various operations related to student data. The system is designed to be modular, employing dynamic memory allocation and incorporating principles such as binary search and structured data.
 
+This student management project reflects work with structs, pointers, files, dinamic allocation, input validation and error printing according to the principles of separating implementation from declaration, as well as a single role for each function.
+
+## The structure of the system
+main students management struct containing students counter and a pointer to a dynamic array that points to the students and their courses. First, the structure is built according to 2 files - "courses info" and "students info". Students are entered in ascending order of their ID. Each student contains a name, an ID, a number of courses and a pointer to an array of courses, where a course contains a course number and the grade of the student in it. After the data structure of the system is ready, the menu will be printed and the user will be asked to choose an action from the following - add/delete a student, add a new course for a student, print a student/all, print an average of a student/all, reset the system or exit.
+
 ## Files
 
   1. **main.cpp**: Main program file initializing the student manager and calling the menu function.
